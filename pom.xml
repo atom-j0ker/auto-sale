@@ -4,10 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.auto-sale</groupId>
+    <groupId>com.auto</groupId>
     <artifactId>auto-sale</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+
+    <properties>
+        <springframework.version>4.2.5.RELEASE</springframework.version>
+        <springframework.security.version>4.1.0.RELEASE</springframework.security.version>
+    </properties>
 
     <dependencies>
 
