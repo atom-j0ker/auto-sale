@@ -1,0 +1,705 @@
+body {
+    margin: 0px;
+    background-color: rgba(240, 240, 240, 0.79);
+}
+
+form {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.index-body {
+    background-image: url("/resources/image/background-image-mazda6.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 1%
+}
+
+.right-part-user {
+    float: right;
+    height: 75px;
+    width: 20%;
+}
+
+.header-btn {
+    width: 195px;
+    margin: 3px;
+    font-size: 18px;
+    background-color: rgb(128, 3, 122);
+    color: white;
+}
+
+.announcements {
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.79);
+    float: left;
+}
+
+.announcement-search-background {
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.79);
+    float: left;
+}
+
+.announcement-search {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.announcement-search-middle {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.announcement-search-form {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.refine-search {
+    width: 195px;
+    font-size: 18px;
+    float: right;
+    background-color: black;
+    color: white;
+}
+
+.sort-by-combobox {
+    width: 300px;
+    font-size: 20px;
+    -webkit-appearance: menulist-button;
+}
+
+.announcement-search-mileage {
+    width: 27%;
+    margin-right: 1px;
+    font-size: 22px;
+}
+
+.announcement-search-volume {
+    width: 27%;
+    margin-right: 1px;
+    font-size: 22px;
+}
+
+.announcement-search-price {
+    width: 27%;
+    margin-right: 1px;
+    font-size: 22px;}
+
+.announcement-add {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.announcement-add-middle {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.announcement-add-form {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.announcements-list {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.announcement-auto {
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    float: left;
+}
+
+.announcement-auto-photo {
+    width: 40%;
+    height: 300px;
+    float: left;
+    background-color: rgb(210, 210, 210);
+}
+
+.announcement-auto-info {
+    width: 58%;
+    margin-left: 2%;
+    margin-top: 1%;
+    float: left;
+}
+
+.announcement-auto-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.announcement-auto-price {
+    display: inline-block;
+    background-color: rgb(205, 0, 0);
+    border: 1px solid rgb(205, 0, 0);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.announcement-edit {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.announcement-edit-middle {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.announcement-edit-form {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.logo-black {
+    float: left;
+    width: 8%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.registration {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.registration-form {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 3px solid #000;
+    text-align: center;
+    background-color: white;
+}
+
+.registration-field {
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sign-up-button {
+    background-color: #c4e1f7;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.authorization {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.authorization-form {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 3px solid #000;
+    text-align: center;
+    background-color: white;
+}
+
+.authorization-field {
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sign-in-button {
+    background-color: #c4e1f7;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.left-part {
+    width: 80%;
+    height: 30%;
+    float: left;
+}
+
+.right-part {
+    width: 20%;
+    height: 30%;
+    float: left;
+}
+
+.log-in-registration-form {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.log-in-form {
+    margin: 0px;
+}
+
+.log-in-field {
+    width: 180px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 5px
+}
+
+.log-in-btn {
+    width: 180px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #bb0100;
+}
+
+.show-announcements-btn {
+    float: left;
+    width: 45%;
+    height: 90px;
+    margin-left: 40%;
+    margin-top: 5%
+}
+
+.add-announcement-btn {
+    float: left;
+    width: 70%;
+    height: 90px;
+    margin-left: 30%;
+}
+
+.announcement-add-label {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(7, 220, 4);
+}
+
+.announcement-add-string {
+    width: 100%;
+    height: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.announcement-add-text {
+    float: left;
+    width: 45%;
+    font-size: 26px;
+}
+
+#brandComboBoxId {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+#modelComboBoxId {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+#yearComboBoxId {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+#fuelComboBoxId {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+#driveTrainComboBoxId {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+#colorComboBoxId {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+#yearFromComboBoxId {
+    width: 27%;
+    font-size: 22px;
+    margin: 0px;
+    margin-right: 1px;
+    -webkit-appearance: menulist-button;
+}
+
+#yearToComboBoxId {
+    width: 27%;
+    font-size: 22px;
+    margin: 0px;
+    margin-right: 1px;
+    -webkit-appearance: menulist-button;
+}
+
+#transmissionComboBoxId {
+    width: 55%;
+    float: left;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+.transmission-add-combobox {
+    width: 28%;
+    float: left;
+    font-size: 22px;
+    margin: 0px;
+    -webkit-appearance: menulist-button;
+}
+
+.announcement-search-btn {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 50px;
+    font-weight: bold;
+    background-color: rgb(7, 220, 4);
+}
+
+.announcement-add-mileage {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.announcement-add-volume {
+    width: 25%;
+    font-size: 22px;
+    margin: 0px;
+    float: left;
+}
+
+.announcement-add-cylinders {
+    width: 28%;
+    font-size: 22px;
+    margin: 0px;
+    float: right;
+}
+
+.announcement-add-gears {
+    width: 25%;
+    font-size: 22px;
+    margin: 0px;
+    float: right;
+}
+
+.announcement-add-price {
+    width: 55%;
+    float: right;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.browse-images {
+    width: 54%;
+    display: inline-block;
+    font-size: 24px;
+    padding: 3px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.hidden-files {
+    visibility:hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.announcement-add-btn {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 50px;
+    font-weight: bold;
+    background-color: rgb(7, 220, 4);
+}
+
+.auto-announcement {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.auto-announcement-middle {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    float: left;
+}
+
+.auto-announcement-head {
+    width: 100%;
+    float: left;
+}
+
+.auto-announcement-name {
+    font-size: 40px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.auto-announcement-price {
+    display: inline-block;
+    background-color: rgb(205, 0, 0);
+    border: 1px solid rgb(205, 0, 0);
+    border-radius: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-right: 2%;
+    float: right;
+}
+
+.auto-announcement-content {
+    width: 100%;
+    float: left;
+}
+
+.auto-announcement-characteristics {
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+}
+
+.auto-announcement-characteristics-string {
+    margin-bottom: 5%;
+    font-size: 22px;
+}
+
+.admin-btn {
+    color: white;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 777px;
+}
+
+.my-profile-btn {
+    width: 70px;
+    margin-top: 0%;
+    margin-right: 7%;
+    float: right;
+}
+
+.my-profile {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.my-profile-middle {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.my-profile-form {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.my-profile-photo {
+    width: 200px;
+    height: 300px;
+    float: left;
+    background-color: lightgray;
+}
+
+.my-profile-info {
+    width: 360px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+.my-profile-announcements-form {
+    width: 100%;
+}
+
+.my-profile-announcement {
+    width: 50%;
+    border: 1px solid black;
+    background-color: rgba(240, 240, 240, 0.79);
+}
+
+.my-profile-auto-photo {
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+    float: left;
+}
+
+.my-profile-edit-delete-btn {
+    width: 60px;
+    margin: 3px;
+    float: left;
+}
+
+.button{text-decoration:none; text-align:center;
+    padding:4px 47px;
+    border: none;
+    font:34px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+    background:transparent;
+
+}.button:hover{
+     padding:4px 47px;
+     border:solid 7px #ffffff;
+     -webkit-border-radius:50px;
+     -moz-border-radius:50px;
+     border-radius: 50px;
+     font:34px Arial, Helvetica, sans-serif;
+     font-weight:bold;
+     color:#ffffff;
+     background-color:#000000;
+     background-image: -moz-linear-gradient(top, #000000 0%, #ff4c4c 100%);
+     background-image: -webkit-linear-gradient(top, #000000 0%, #ff4c4c 100%);
+     background-image: -o-linear-gradient(top, #000000 0%, #ff4c4c 100%);
+     background-image: -ms-linear-gradient(top, #000000 0% ,#ff4c4c 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4c', endColorstr='#ff4c4c',GradientType=0 );
+     background-image: linear-gradient(top, #000000 0% ,#ff4c4c 100%);
+
+ }.button:active{
+      padding:4px 47px;
+      border:solid 7px #ffffff;
+      -webkit-border-radius:50px;
+      -moz-border-radius:50px;
+      border-radius: 50px;
+      font:34px Arial, Helvetica, sans-serif;
+      font-weight:bold;
+      color:#ffffff;
+      background-color:#000000;
+      background-image: -moz-linear-gradient(top, #000000 0%, #ff4c4c 100%);
+      background-image: -webkit-linear-gradient(top, #000000 0%, #ff4c4c 100%);
+      background-image: -o-linear-gradient(top, #000000 0%, #ff4c4c 100%);
+      background-image: -ms-linear-gradient(top, #000000 0% ,#ff4c4c 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4c', endColorstr='#ff4c4c',GradientType=0 );
+      background-image: linear-gradient(top, #000000 0% ,#ff4c4c 100%);
+      opacity:0.6;
+      -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+      filter: alpha(opacity=60);
+  }
+
+body .slider {
+    overflow:hidden;
+    position:relative;
+    width:600px;
+    height:400px;
+    margin-left: 2%;
+    margin-top: 1%;
+    float: left;
+}
+
+body .slider .slides {
+    position:relative;
+    transition:1s;
+}
+
+body .slider .slides .slide {
+    float:left;
+    display:block;
+}
+
+body .slider .slides .slide img{
+    width:600px;
+    height:400px;
+}
+
+body .slider .next {
+    position:absolute;
+    height: 45px;
+    width: 40px;
+    background: #ffffff;
+    right: 0;
+    top: 177px;
+    z-index:1;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+body .slider .prev {
+    position: absolute;
+    height: 45px;
+    width: 40px;
+    background: #ffffff;
+    left: 0;
+    top: 177px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: bold;
+    opacity: 0.5;
+}
